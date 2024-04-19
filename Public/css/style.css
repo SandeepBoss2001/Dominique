@@ -773,3 +773,134 @@ overflow: hidden;
    transform: translate(0,-50%);
     color:#FF2F2F;
 }
+
+/* Respoonsive*/
+
+@media (min-width:320px) and (max-width:600px) 
+{
+.menu{
+    display: none;
+}
+.hero{
+padding: 10% 12px;
+}
+.hero .elm1 p {
+    font-size: 3.6vw;
+}
+.hero .elm2 h1 {
+    font-family: font3;
+    letter-spacing: 1px;
+    font-size: 18vw;
+    line-height: 16vw;
+    position: relative;
+}
+#italic {
+    font-family: font4 !important;
+    font-weight: 200 !important;
+    position: absolute;
+    right: 8vw;
+    top: 4vh;
+    font-size: 5vw;
+}
+/* page2 */
+._p p{
+    width: 90%;
+    font-size: 4vw;
+}
+._elm5 h4{
+    font-size: 4vw;
+    width: 90%;
+}
+.sign {
+    font-family: font5 !important;
+    font-size: 4vw;
+}
+/* pag3 */
+.page_3{
+    height: 130vh;
+}
+.__h1 h1{
+    font-size: 18vw;
+ 
+}
+.__h4 p{
+    width: 90%;
+    font-size: 4vw;
+}
+.__h2 h2{
+    font-size: 18vw;
+}
+.__h2{
+    overflow: visible;
+}
+/* pag4 */
+.w50_1 h1{
+    width: 90%;
+    font-size: 4vw;
+}
+.w50_1 h6{
+    font-size: 3vw;
+}
+.w50 {
+    width: 50%;
+    padding: 0 1.5rem;
+    margin-top: 2rem;
+}
+.w50_1 p{
+    font-size: 3vw;
+}
+/* w50-2 */
+.w50_2 .wrap h6{
+    font-size: 4vw;
+}
+.w50_2 .wrap p{
+    font-size: 3vw;
+}
+.withoutwrap h3{
+    font-size: 4vw;
+}
+.withoutwrap h3 span{
+    font-size: 4vw;
+}
+
+/* page5 */
+.page_5{
+    height: 100vh;
+}
+/* page6 */
+.center .centertext h5{
+    font-size: 3vw;
+}
+.center .centertext h1{
+    font-size: 18vw;
+}
+.centertext h4{
+    font-size: 6vw;
+}
+/* page7 */
+.page7{
+    height: 100vh;
+   padding-top: 14vw;
+}
+
+.overflow8 h1{
+    line-height: 16vw;
+}
+.overflow7 p{
+    font-size: 3vw;
+    width: 100%;
+    display: none;
+}
+.newletter p{
+    font-size: 4vw;
+}
+.newletter h4{
+    font-size: 12vw;
+}
+.newletter input{
+    font-size: 4vw;
+}
+.input span{
+    font-size: 4vw;
+}
+}
