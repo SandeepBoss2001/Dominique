@@ -778,31 +778,49 @@ overflow: hidden;
 
 @media (min-width:320px) and (max-width:600px) 
 {
+    .logo{
+        width: 140px;
+    }
+    .sidebtn span{
+        font-weight: 400;
+        font-size: 12px;
+        font-family: font1;
+    }
 .menu{
     display: none;
 }
 .hero{
 padding: 10% 12px;
+justify-content: flex-end;
+gap:30px;
 }
 .hero .elm1 p {
-    font-size: 3.6vw;
+    font-size: 4vw;
+    font-family: font1;
 }
 .hero .elm2 h1 {
     font-family: font3;
     letter-spacing: 1px;
-    font-size: 18vw;
-    line-height: 16vw;
+    font-size: 14vw;
+    line-height: 14vw;
     position: relative;
 }
 #italic {
     font-family: font4 !important;
     font-weight: 200 !important;
     position: absolute;
-    right: 8vw;
-    top: 4vh;
-    font-size: 5vw;
+    left:55vw;
+    width: 100%;
+    top: 2vh;
+    font-size: 8vw;
 }
 /* page2 */
+.page_2{
+    height: auto;
+}
+._h1 h1{
+    font-size: 10vw;
+}
 ._p p{
     width: 90%;
     font-size: 4vw;
@@ -813,11 +831,12 @@ padding: 10% 12px;
 }
 .sign {
     font-family: font5 !important;
-    font-size: 4vw;
+    font-size: 6vw;
 }
+
 /* pag3 */
 .page_3{
-    height: 130vh;
+    height: auto;
 }
 .__h1 h1{
     font-size: 18vw;
@@ -826,6 +845,9 @@ padding: 10% 12px;
 .__h4 p{
     width: 90%;
     font-size: 4vw;
+}
+.__h4 h4{
+    font-size: 3vw;
 }
 .__h2 h2{
     font-size: 18vw;
